@@ -12,7 +12,7 @@ const App = () => {
 	const country = 'in';
 	return (
 		<div>
-			<BrowserRouter>
+			<BrowserRouter basename=''>
 				<NavBar />
 				<LoadingBar
 					color='#f11946'
